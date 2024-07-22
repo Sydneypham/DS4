@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<h1 style="text-align:center; color: white;">D<sup>4</sup></h1></head>
+	
+		<link rel="stylesheet" href="assets/styles.css">
+		
+		<style>
+			html{
+				display: inline-flex;
+			}
+			body, html {
+				font-family: sans-serif;
+				height: 100%;
+				margin: 0;
+				background-color: black;
+				color: white;
+				
+			}
+
+			/* idk something usual */
+			.maincontent {
+      			background-color: #393838;
+      			border-radius: 50px;
+      			margin: 25px 70px 25px 70px;
+      			padding: 50px;
+    		}
+
+    		footer {
+      			text-align: center;
+      			padding-top: 50px;
+    		}
+
+    		.parent-ubi {
+      			display: flex;
+      			padding: 20px;
+      			margin: 15px;
+      			float: left;
+			}
+
+    		.ubi-realtime {
+      			padding: 15px;
+      			margin: -5px;
+      			border-radius: 30px;
+      			flex: 0;
+    		}
+
+    		.topcontainer {
+      			background-color: #1d1c1c;
+      			background-image: linear-gradient(to right, rgba(134, 159, 229, 0.942), rgba(255, 255, 255, 0)), url(./assets/Steam/images/steam_backdrop.jpg);
+      			background-size: cover;
+      			background-position: center;
+      			border-radius: 30px;
+      			padding: 100px 60px;
+      			mix-blend-mode: hard-light;
+      			color: #bbb8b8;
+    		}
+
+    		.img-radius {
+      			border-radius: 30px;
+    		}
+
+    		main a:hover {
+      			color: white;
+    		}
+			
+			/* hero Page */
+			.hero-image {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Steam/images/steam_background.png");
+				width: 100vw;
+				height: 100vh;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+			}
+			
+			.hero-text {
+				font-size: 1.5em;
+				text-align: center;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+			}
+			
+			.hero-text button {
+				font-size: 70%;
+        		background-color:rgb(93, 194, 238);
+        		padding: 10px 40px 10px 40px;
+        		border: none;
+        		border-radius: 30px;
+        		cursor: pointer;
+				transition-duration: 0.4s;
+			}
+			
+			.hero-text button:hover {
+				background-color: #ffffff;
+				color: rgb(0, 0, 0);
+				transform: scale(1.2); 
+				transition: transform .2s;
+				font-weight: bold;
+			}
+			
+			h3 {
+				font-size: 2em;
+			}
+					
+			th { 
+				padding-bottom: 1.2em; 
+				font-size: 1.2em;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			
+			td {
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-bottom: 1.2em;
+				font-size: 0.8em;
+				margin-top: 0.8em;
+			}
+			
+			table {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			article { 
+				float: center;
+				text-align: left;
+				max-width: 35em;
+				padding-bottom: .8em;
+				padding-top: .8em;
+				margin-left: 2em;
+			}
+			
+			/* image shake*/
+			.image-enlarge:hover { 
+				transform: scale(1.2); 
+				transition: transform .2s; 
+			}
+			
+			steam-logo {
+				float: right;
+			}
+			
+		</style>
+		
+		<title>Steam</title>
+		<link rel="icon" type="image/x-icon" href="assets/Steam/images/steam_logo.ico">
+	</head>
+	<body>
+		<div class="topnav">
+			<a href="Homepage.html">Homepage</a>
+			<a href="BlizzardRemakeHTML.html">Blizzard</a>
+			<a href="Steam.html">Steam</a>
+			<a href="ubisoft_page.html">Ubisoft Connect</a>
+			<a href="Epic Games Page.html">Epic Games</a>
+			<a href="Downloads.html">Downloads</a>
+			<a href="Contact Us.html">Contact Us</a>
+			<a href="SupportPage.html">Support</a>
+		</div>
+		
+		<!--Hero Selection for the website-->
+		<div class="hero-image">
+			<div class="hero-text">
+				<h1 style="font-size:50px">Steam</h1>
+				<p>A platform and storefront for all PC gamers.</p>
+				<button onclick="document.location='Downloads.html'">Download</button>
+			</div>
+		</div>
+		
+		<main class="maincontent">
+			<div class="topcontainer" style="font-family: sans-serif; color: #ddd8d8;">
+			  <head>
+				<h2 style="text-align: left; ">STEAM</h2>
+			  </head>
+			  <p style="text-align: left; margin-right: 300px; line-height: 30px; font-size: 120%">Steam is Value's digital distribution plaform. It offers vast catalog of digital video games and software titles that are available to purchase and download, including very popular AAA and indie titles and various of multimedia content on their platform.</p>
+			</div>
+			<div class="parent-ubi">
+			  <div class="ubi-realtime">
+				<img src="assets/Steam/images/steam-library.jpg" height="300px" width="450px" >&nbsp;&nbsp;
+			  </div>
+			  <div class="ubi-realtime">
+				<img src="./assets/Steam/images/steam_store.jpg" height="300px" width="450px" class="img-radius">
+			  </div>
+			</div><br>
+			<p> It also has a robust community on their social networking side on the platform, allowing for users to connect with their friends, join various groups, participate in online discussions on forums and share their gameplay experiences with the millions of players across the globe.</p>
+			<br>
+		</main>
+			<main class="maincontent">
+			<div class="parent-ubi2">
+				<h3>What platforms does Steam support?</h3>
+			<table>
+				<tr>
+					<th>Microsoft Windows</th>
+					<th>Apple macOS</th>
+					<th>Linux</th>
+				</tr>
+				
+				<tr>
+					<td><img src="assets/Steam/images/Windows_logo.png" width="150" height="150" alt="Windows Logo" class="image-enlarge"></td>
+					<td><img src="assets/Steam/images/macOS_logo.png" width="150" height="150" alt="macOS Logo" class="image-enlarge"></td>
+					<td><img src="assets/Steam/images/linux_logo.png" width="130" height="150" alt="Linux Logo" class="image-enlarge"></td>
+				</tr>
+				
+				<tr>
+					<td>Windows 7 and above.</td>
+					<td>OS X version 10.11 (El Capitan) or later.</td>
+					<td>Ubuntu officially by Value.</td>
+				</tr>
+			</table>
+			</div>
+			<div class="parent-ubi">
+			<p>
+			  <b>You can visit our&nbsp<a href="Downloads.html">downloads page</a>&nbspfor information on how to install the steam launcher onto your computer.</b>
+			</p>
+			</div>
+		</div>
+		  </main>
+
+	</body>
+</html>

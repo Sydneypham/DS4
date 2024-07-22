@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/styles.css">
+    
+    <style>
+      html {
+        background-color: #1d1c1c;
+        font-family: 'Poppins', sans-serif;
+        background-image: linear-gradient(rgba(150, 16, 150, 0.141), rgb(45, 44, 45)), url(assets/Homepage/blue-and-purple-galaxy.jpg);
+        background-size: contain;
+      }
+
+      
+      h1, p {
+        color: white;
+      }
+      
+      img { 
+        float: left; 
+        margin-left: 15px; 
+        margin-right: 15px; 
+        padding-bottom: 15px;
+      }
+      
+      .contact-header { 
+        color: black; 
+      }
+    
+      * {
+      box-sizing: border-box;
+      }
+      
+      .bg-img {
+        /* The image used */
+        background-image: url("assets/Contact Us/images/contact-background.png");
+        min-height: 550px;
+        border-radius: 0px 0px 20px 20px;
+        
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      
+      /* Add styles to the form container */
+      .container {
+        position: absolute;
+        right: 0;
+        margin: 20px;
+        max-width: 300px;
+        padding: 16px;
+        background-color: white;
+        border-radius: 10px;
+      } 
+      /* Full-width input fields */
+      input[type=text], textarea {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      input[type=text]:focus, textarea:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      /* Set a style for the submit button */
+      .btn {
+        background-color: lightblue;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      
+      .btn:hover {
+        opacity: 1;
+      }
+    </style>
+
+  <script>
+    function validateForm(){
+      // 
+      let name = document.forms["ContactForm"]["name"].value;
+      let email = document.forms["ContactForm"]["email"].value;
+      let message = document.forms["ContactForm"]["message"].value;
+
+      // valid name, email, and message
+      if (name || email || message == "") {
+        alert("Contact form must be filled to submit.");
+        return false;
+      }
+
+      // validation pass
+      return true;
+    }
+
+</script>
+  </head>
+  <body>
+
+    <img src="assets/Contact Us/images/message-icon.png" alt="Contact Us" width="60" height="58">
+    <h1>Contact Us</h1>
+      <div class="topnav">
+        <a href="Homepage.html">Homepage</a>
+        <a href="BlizzardRemakeHTML.html">Blizzard</a>
+        <a href="Steam.html">Steam</a>
+        <a href="ubisoft_page.html">Ubisoft Connect</a>
+        <a href="Epic Games Page.html">Epic Games</a>
+        <a href="Downloads.html">Downloads</a>
+        <a href="Contact Us.html">Contact Us</a>
+        <a href="SupportPage.html">Support</a>
+      </div>
+  
+<div class="bg-img">
+  <form name="ContactForm" class="container" onsubmit="return validateForm()">
+    <h1 class="contact-header">Contact Us</h1>
+    
+    <label for="text"><b>Name</b></label>
+    <input type="text" placeholder="Please enter your name." name="name">
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email">
+    
+    <label for="text"><b>Message</b></label>
+    <textarea name="message" rows="4" cols="50" placeholder="Please type your message here in this text box."></textarea>
+
+
+    <button type="submit" class="btn">Send</button>
+  </form>
+</div>
+
+  <p>Before asking any questions regarding the website and it's services.<br>Please feel free to check out the <a href="FAQs.html">FAQs</a> page before continuing to contact us.<br>If your question isn't answered there and you need further assistance.<br><br>You can either contact us by email address at <a href = "mailto: placeholder@example.com">placeholder@example.com</a><br>or shoot us a message through our message box below.</p>
+  
+  <p>We will try our best to response back within 1-2 business days.</p>
+
+  
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <head>
+    <h1 style="text-align:center; color: purple;">D <sup>4</sup></h1>
+    <audio autoplay loop>
+      <source src="assets/background_audio.mp3" type="audio/mp3">
+    </audio>
+  </head>
+  <div class="topnav">
+    <a href="Homepage.html">Homepage</a>
+    <a href="BlizzardRemakeHTML.html">Blizzard</a>
+    <a href="Steam.html">Steam</a>
+    <a href="ubisoft_page.html">Ubisoft Connect</a>
+    <a href="Epic Games Page.html">Epic Games</a>
+    <a href="Downloads.html">Downloads</a>
+    <a href="Contact Us.html">Contact Us</a>
+    <a href="SupportPage.html">Support</a>
+  </div>
+  <style>
+    html {
+      display: inline-flex;
+      background-color: #1d1c1c;
+      font-family: 'Poppins', sans-serif;
+      background-image: linear-gradient(rgba(150, 16, 150, 0.141), rgb(45, 44, 45)), url(assets/Homepage/blue-and-purple-galaxy.jpg);
+      background-size:auto;
+      
+    }
+
+    p, h1, h2, head, h2, h3, footer, table {
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    main {
+      background-color: #393838;
+      border-radius: 50px;
+      margin: 25px 70px 50px 70px;
+      padding: 40px;
+      
+      
+    }
+
+    main a:hover {
+      background-color: rgb(238, 93, 161);
+      color: rgb(255, 255, 255);
+    }
+
+    #table1 {
+      float: center;
+      background-color: #393838;
+      border-radius: 23px;
+      margin: auto;
+      padding: 60px;
+      overflow: hidden;
+    }
+
+    #table2 {
+      background-color: #393838;
+      border-radius: 23px;
+      margin: auto;
+      padding: 60px;
+      overflow: hidden;
+    }
+
+    .topnav {
+      overflow:hidden;
+      background-color: #7c7979;
+      background-image: linear-gradient(rgb(170, 163, 170), rgb(51, 50, 51))
+    }
+
+    .topnav a {
+      width: auto;
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #94acbd;
+      color: white;
+    }
+
+    .mainbanner {
+      background-image: url(./assets/Homepage/images/space\ banner.jpeg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 23px;
+      padding: 130px 60px;
+    }
+
+    #intro {
+      color: #bbb8b8;
+      text-shadow: #1d1c1c;
+    }
+
+    .container{
+      background-color: #1d1c1c;
+      padding: 3px 20px 3px 20px;
+      margin-right: 300px;
+      margin-left: 300px;
+      margin-bottom: 100px;
+      border-radius: 30px;
+      position: static;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    button{
+        font-size: 100%;
+        background-color:rgb(238, 93, 161);
+        padding: 10px 40px 10px 40px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+		transition-duration: 0.4s;
+    }
+    button:hover{
+        background-color:rgb(236, 233, 236);
+        color:#1d1c1c;
+    }
+    div img{
+      border-radius: 30px;
+    }
+  </style>
+  </head>
+  
+  <body class="maincontent">
+    <hr>
+    <br>
+    <main>
+      <div class="launchers.info">
+        <div class="mainbanner">
+          <p id="intro" style="text-align: center; font-size: 130%;">
+            <b>
+              <span style="color: rgb(255, 99, 255);">WELCOME</span> TO THE OFFICIAL PAGE OF D <sup>4</sup>
+              <br> YOUR DIGITAL DISTRIBUTION CENTER FOR <span style="color: rgb(255, 99, 255)">GAME LAUNCHERS</span>
+            </b>
+          </p>
+        </div>
+        <br>
+        <br>
+        <p style="text-align: center; font-size: 180%;"> GAME <span style="color: rgb(255, 99, 255);">LAUNCHERS</span>
+        </p>
+        <div class="container">
+        <div class="redirectbutton">
+            <div class="redirect-text">
+          <h3 style="text-align: center">
+            <img src="./assets/Homepage/images/ubisoft-connect.jpeg" height="300px" width="550px" alt="ubisoft">
+            <div class="ubisoftbutton">
+                <button onclick="document.location='ubisoft_page.html'">UBISOFT CONNECT</button>
+              </div>
+            </div>
+            </div>
+          </h3>
+        </div>
+        <div class="container">
+        <div class="redirectbutton">
+            <div class="redirect-text">
+          <h3 style="text-align: center;">
+            <img src="./assets/Homepage/images/battlenet.jpeg" height="300px" width="550px" alt="blizzard">
+            <div class="blizzbutton">
+                <button onclick="document.location='BlizzardRemakeHTML'">BLIZZARD (BATTLE.NET)</button>
+            </div>
+        </div>
+        </div>
+          </h3>
+        </div>
+        <div class="container">
+        <div class="redirectbutton">
+        <div class="redirect-text">
+          <h3 style="text-align: center;">
+            <img src="./assets/Homepage/images/steam-social.jpeg" height="300px" width="550px" alt="steam">
+            <div class="steambutton">
+                <button onclick="document.location='STEAM.html'">STEAM</button>
+                </div>
+            </div>
+            </div>
+          </h3>
+        </div>
+        <div class="container">
+        <div class="redirectbutton">
+            <div class="redirect-text">
+          <h3 style="text-align: center;">
+            <img src="./assets/Homepage/images/epic games.jpeg" height="300px" width="550px" alt="epic">
+            <div class="epicbutton">
+                <button onclick="document.location='Epic Games Page.html'">EPIC GAMES</button>
+              </div>
+            </div>
+            </div>
+          </h3>
+        </div>
+      </div>
+    </main>
+    <table id="table1">
+      <tr>
+        <th>
+          <h3>New <span style="color:rgb(238, 93, 161)">Releases</span>
+          </h3>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <img src="./assets/Homepage/images/New Games/spiderman2.avif" height="200px" width="150px" alt="mw3">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/New Games/nba2k.jpeg" height="200px" width="150px" alt="nba">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/New Games/resi-evil.jpeg" height="200px" width="150px" alt="resident">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/New Games/fate.jpeg" height="200px" width="150px" alt="fate">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/New Games/mk1.jpeg" height="200px" width="150px" alt="mk1">
+        </td>
+      </tr>
+      <tr>
+        <td>Call of Duty: <br> Modern Warfare 3 </td>
+        <td>NBA 2k24</td>
+        <td>Resident Evil 4: <br> Seperate Ways </td>
+        <td>Fate/Samurai <br> Remnant </td>
+        <td>Mortal Kombat 1</td>
+      </tr>
+    </table>
+    <table id="table2">
+      <tr>
+        <th>
+          <h3>Popular <span style="color:rgb(238, 93, 161)">Releases</span>
+          </h3>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <img src="./assets/Homepage/images/Popular Games/co2ekt.jpeg" height="200px" width="150px" alt="fortnite">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/Popular Games/mw3.jpeg" height="200px" width="150px" alt="mwagain">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/Popular Games/rocket_league.webp" height="200px" width="150px" alt="rocket">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/Popular Games/Apex_Legends.webp" height="200px" width="150px" alt="apex">
+        </td>
+        <td>
+          <img src="./assets/Homepage/images/Popular Games/gta5.webp" height="200px" width="150px" alt="gta">
+        </td>
+      </tr>
+      <br>
+      <br>
+      <tr>
+        <td>Fortnite</td>
+        <td>Call of Duty: <br> Modern Warefare 3 </td>
+        <td>Rocket League</td>
+        <td>Apex Legends</td>
+        <td>Grand Theft <br> Auto 5 </td>
+      </tr>
+    </table>
+  </body>
+  <br>
+  <br>
+  <footer>Copyright &copy; Humber College and D <sup>4</sup>. All rights reserved. </footer>
+</html>
